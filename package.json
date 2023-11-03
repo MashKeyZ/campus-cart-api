@@ -1,0 +1,33 @@
+{
+  "name": "campuscartapi",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.427.0",
+    "@aws-sdk/s3-request-presigner": "^3.427.0",
+    "@aws-sdk/util-create-request": "^3.425.0",
+    "aws-sdk": "^2.1463.0",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^16.3.1",
+    "express": "~4.16.1",
+    "fs": "^0.0.1-security",
+    "http-errors": "~1.6.3",
+    "ioredis": "^5.3.2",
+    "jade": "~1.11.0",
+    "jsonwebtoken": "^9.0.1",
+    "morgan": "~1.9.1",
+    "multer": "^1.4.5-lts.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.6.1",
+    "nodemon": "^3.0.1",
+    "path": "^0.12.7",
+    "socket.io": "^4.7.2",
+    "uuid": "^9.0.0"
+  }
+}
